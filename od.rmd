@@ -1,0 +1,43 @@
+---
+title: "OddDiceprobability"
+author: "teacher"
+date: "June 22, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Three games with dice
+
+This is an Challenging game where you are to compute the probability of rolling a given number obtained by summing the numbers on a roll of dice. 
+
+### Game one  
+
+Each die has 6 sides (it is a cube) however the distribution of the numbers on the dice is not uniform.  
+
+die number one has these 6 numbers  0,1,2,2,3,4  
+die number two has 1,1,2,3,3,4  
+die number three has 1,1,1,2,3,4  
+
+It should be easy to see that any number from 2 to 12 is a possibility.  
+
+Determine the probability of rolling a seven?
+
+### Game two
+
+you have two standard dice  
+both have 6 sides 
+
+Determine the probability of rolling a seven?  
+
+### Game three  
+
+You have three dice.Each die has four sides (they look like little pyramids).
+They each have the numbers 1,2,3, and 4 on their respective faces. When you roll them it is the number that is face down that you count.  In this setup the possible outcomes are the numbers from 3 throughn 12.  
+Determine the probability of rolling a seven? 
+
+### Final Summary
+
+List in decreasing order the probability of rolling a seven and what you determined those probabilities to be.
